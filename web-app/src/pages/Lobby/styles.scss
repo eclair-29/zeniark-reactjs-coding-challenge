@@ -1,0 +1,25 @@
+.page-lobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .page-title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        #lobbyLogo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            margin-bottom: 0.625rem;
+        }
+    }
+
+    .page-control {
+        justify-content: center;
+    }
+}
