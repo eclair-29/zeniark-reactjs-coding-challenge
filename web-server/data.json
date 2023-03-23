@@ -1,0 +1,47 @@
+[
+    {
+        "category": "geography",
+        "question": "Is India has the largest population in the world?",
+        "answer": false
+    },
+    {
+        "category": "geography",
+        "question": "Pacific, Indian, Arctic, and the Antarctic are the names of the five oceans of the world.",
+        "answer": true
+    },
+    {
+        "category": "geography",
+        "question": "The Nile River is the name of the longest river in Africa.",
+        "answer": true
+    },
+    {
+        "category": "geography",
+        "question": "China is the largest country in the world.",
+        "answer": false
+    },
+    {
+        "category": "geography",
+        "question": "Ottawa is the capital of Canada.",
+        "answer": true
+    },
+    {
+        "category": "science",
+        "question": "Electrons are smaller than atoms.",
+        "answer": true
+    },
+    {
+        "category": "science",
+        "question": "Bamboo is the name of the tallest grass on earth.",
+        "answer": true
+    },
+    {
+        "category": "science",
+        "question": "Carbon is the name of the tallest grass on earth.",
+        "answer": false
+    },
+    {
+        "category": "science",
+        "question": "Mycology  is the study of mushrooms.",
+        "answer": true
+    }
+]

@@ -1,0 +1,74 @@
+$true-color: #4fbd1b;
+$true-color-hover: darken($true-color, 10%);
+$false-color: #e04e10;
+$false-color-hover: darken($false-color, 10%);
+
+.page-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+
+    .page-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 50px;
+                height: auto;
+            }
+
+            h4 {
+                margin-left: 0.75rem;
+            }
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+    }
+
+    .page-body p {
+        font-size: 1.25rem;
+    }
+
+    .page-control {
+        &-button {
+            margin: 0 0.75rem;
+            font-size: 1.125rem;
+            padding: 0.375rem 1rem;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+            svg {
+                width: 1.25rem;
+                height: 1.25rem;
+                margin-right: 0.375rem;
+            }
+        }
+
+        .true {
+            background-color: $true-color;
+
+            &:hover {
+                background-color: $true-color-hover;
+            }
+        }
+
+        .false {
+            background-color: $false-color;
+
+            &:hover {
+                background-color: $false-color-hover;
+            }
+        }
+    }
+}

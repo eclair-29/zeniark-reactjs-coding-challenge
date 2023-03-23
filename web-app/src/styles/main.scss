@@ -4,6 +4,9 @@
 // lobby styles
 @import url("../pages/Lobby/styles.scss");
 
+$base-blue: #085696;
+$base-blue-hover: darken($base-blue, 10%);
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +22,19 @@ h6 {
     font-weight: 600;
 }
 
+a {
+    font-size: 1.25rem;
+    color: $base-blue;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid $base-blue;
+
+    &:hover {
+        color: $base-blue-hover;
+        border-color: $base-blue-hover
+    }
+}
+
 .App {
     background: url("../images/bg.png");
     background-size: cover;
@@ -28,12 +44,12 @@ h6 {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    background-color: $base-blue;
 }
 
 .page {
     width: 600px;
     max-width: 100%;
-    height: 400px;
     max-height: 100%;
     padding: 2rem;
     background: #fff;
@@ -44,6 +60,7 @@ h6 {
 
     &-control {
         display: flex;
+        justify-content: center;
         margin-top: 2rem;
     }
 }

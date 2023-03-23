@@ -1,0 +1,65 @@
+.page-result {
+    height: auto;
+
+    .page-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img,
+        div {
+            width: 50px;
+            height: auto;
+        }
+    }
+
+    .page-body {
+        .score h1 {
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+        
+        .recap {
+            table {
+                margin-top: 20px;
+                tbody tr td {
+                    padding-bottom: 20px;
+                }
+                tbody tr td:nth-child(1) {
+                    padding-right: 2rem;
+                }
+
+                tbody tr td:nth-child(2) {
+                    text-align: left;
+                    padding-right: 2rem;
+                }
+
+                tbody tr td:nth-child(3) {
+                    text-align: right;
+                    padding-left: 3rem;
+                }
+
+                i {
+                    font-size: 1rem;
+                }
+                
+                .true-answer-tag {
+                    color: lightgreen !important
+                }
+
+                .false-answer-tag {
+                    color: orangered !important
+                }
+
+                .qna i {
+                    color: gray
+                }
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
