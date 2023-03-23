@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 app.get("/questions", (req, res) => {
-    const randQuestions = _.sampleSize(questions, 5);
+    const randQuestions = _.sampleSize(questions, 10);
     res.json(randQuestions);
 });
 
